@@ -1,0 +1,21 @@
+After executing `time python copyFilesThread.py` line
+
+the result was
+
+```
+real	0m0.059s
+user	0m0.045s
+sys		0m0.013s
+
+```
+
+Whereas executing `time python copyFilesProcess.py` line
+
+the timing is bit slower
+
+```
+real	0m0.094s
+user	0m0.059s
+sys		0m0.048s
+
+```
